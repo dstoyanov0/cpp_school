@@ -12,5 +12,3 @@ int main() {
 
     cout << "Perimeteryt e: "<< p << endl << "Liceto e: " << s << endl;
 }
-
-// Dimitar Stoyanov is my teacher

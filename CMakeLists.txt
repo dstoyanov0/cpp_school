@@ -7,3 +7,4 @@ add_executable(1-15
         1-15.cpp)
 
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
+add_executable(1-16 1-16.cpp)

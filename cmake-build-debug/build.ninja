@@ -74,6 +74,40 @@ build 1-15.exe: CXX_EXECUTABLE_LINKER__1-15_Debug CMakeFiles/1-15.dir/1-15.cpp.o
   TARGET_IMPLIB = lib1-15.dll.a
   TARGET_PDB = 1-15.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-16
+
+
+#############################################
+# Order-only phony target for 1-16
+
+build cmake_object_order_depends_target_1-16: phony || .
+
+build CMakeFiles/1-16.dir/1-16.cpp.obj: CXX_COMPILER__1-16_unscanned_Debug D$:/programming/c++/cpp-school-git/1-16.cpp || cmake_object_order_depends_target_1-16
+  DEP_FILE = CMakeFiles\1-16.dir\1-16.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1-16.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-16.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-16
+
+
+#############################################
+# Link the executable 1-16.exe
+
+build 1-16.exe: CXX_EXECUTABLE_LINKER__1-16_Debug CMakeFiles/1-16.dir/1-16.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1-16.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-16.exe
+  TARGET_IMPLIB = lib1-16.dll.a
+  TARGET_PDB = 1-16.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -102,6 +136,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1-15: phony 1-15.exe
 
+build 1-16: phony 1-16.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -110,7 +146,7 @@ build 1-15: phony 1-15.exe
 #############################################
 # Folder: D:/programming/c++/cpp-school-git/cmake-build-debug
 
-build all: phony 1-15.exe
+build all: phony 1-15.exe 1-16.exe
 
 # =============================================================================
 # Built-in targets
