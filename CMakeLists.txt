@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.30)
-project(cpp_school_git)
+project(1-15)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpp_school_git main.cpp)
+add_executable(1-15
+        1-15.cpp)
+
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
