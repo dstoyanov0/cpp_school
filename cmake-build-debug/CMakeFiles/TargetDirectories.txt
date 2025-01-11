@@ -1,0 +1,3 @@
+D:/programming/c++/cpp-school-git/cmake-build-debug/CMakeFiles/cpp_school_git.dir
+D:/programming/c++/cpp-school-git/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programming/c++/cpp-school-git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
